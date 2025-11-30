@@ -1,9 +1,146 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Hello World Page</title>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elvina Dmello | Strategic Marketing Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> 
+    </head>
 <body>
-    <h1>Hello World! This is Elvina</h1>
+
+    <nav>
+        <div class="logo">ELVINA DMELLO</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Work</a></li>
+            <li><a href="#contact" class="btn-nav">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="hero-content">
+            <h1>Strategic Marketing <br> <span class="highlight">That Connects.</span></h1>
+            <p>Bridging the gap between creative storytelling and data-driven insights.</p>
+            <div class="cta-group">
+                <a href="#portfolio" class="btn-primary">View Projects</a>
+                <a href="assets/Elvina_CV.pdf" target="_blank" class="btn-secondary">Download Resume</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section-pad">
+        <div class="container about-grid">
+            <div class="about-img">
+                <img src="assets/images/profile.png" alt="Elvina Dmello" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80'">
+            </div>
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Hi! I'm Elvina, a strategic marketing enthusiast currently pursuing a Postgraduate Certificate in Strategic Marketing and Communication at Conestoga College. I hold a Bachelor's degree in Mass Media and have hands-on experience in client servicing across entertainment, pharmaceutical, and technology sectors.</p>
+                <p>My passion lies in creating meaningful brand experiences. I thrive in environments where creativity meets strategy, aiming to craft campaigns that not only perform but connect.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section-gray">
+        <div class="container">
+            <h2 class="section-title">Core Competencies</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Digital Strategy</h3>
+                    <p>SEO/SEM, Social Media Marketing, Email Automation</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Analytics</h3>
+                    <p>Google Analytics, Market Research, Data Reporting</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Creative</h3>
+                    <p>Content Creation, Branding, Adobe Creative Suite</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Management</h3>
+                    <p>Client Servicing, Project Coordination, Event Planning</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section-pad">
+        <div class="container">
+            <h2 class="section-title">Selected Works</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <div class="card-img" style="background-image: url('assets/images/project1.png');"></div>
+                    <div class="card-info">
+                        <h3>Ford Bronco Campaign</h3>
+                        <p class="subtitle">Media Planning & Strategy</p>
+                        <p>A comprehensive campaign titled "Adventure Redefined." Targeted outdoor enthusiasts (25-45) using a mix of digital, social, and traditional media to highlight the Bronco's "Goes Over Any Terrain" capabilities.</p>
+                        <span class="tag">Brand Strategy</span> <span class="tag">Media Buying</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-img" style="background-image: url('assets/images/project2.png');"></div>
+                    <div class="card-info">
+                        <h3>Pixel Perfection Media</h3>
+                        <p class="subtitle">Branding & Web Development</p>
+                        <p>Developed the brand identity: "Create, Communicate, Connect and Capture." Focused on helping clients increase brand awareness and reach target audiences through digital space optimization.</p>
+                        <span class="tag">Branding</span> <span class="tag">Web Design</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');"></div>
+                    <div class="card-info">
+                        <h3>Strategic Client Growth</h3>
+                        <p class="subtitle">Ambest & Pentacle Designs</p>
+                        <p>Managed 12+ brand campaigns contributing to a 20% increase in client engagement. Led quarterly campaigns achieving 30% growth in ROI and secured high-value clients including Abbott and Sunpharma.</p>
+                        <span class="tag">Client Servicing</span> <span class="tag">ROI Growth</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-pad footer-bg">
+        <div class="container contact-wrapper">
+            <h2>Let's Create Something Great</h2>
+            <p>I am currently open to opportunities in Digital Marketing and Client Success.</p>
+            
+            <div class="contact-details">
+                <a href="mailto:elu461997@gmail.com" class="contact-item">elu461997@gmail.com</a>
+                <a href="tel:+16474646751" class="contact-item">+1 647-464-6751</a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+                <a href="mailto:elu461997@gmail.com">Email</a>
+            </div>
+            
+            <p class="copyright">© 2024 Elvina Dmello. All Rights Reserved.</p>
+        </div>
+    </section>
+
+    <script>
+        // Simple Mobile Nav Toggle
+        const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.nav-links');
+        burger.addEventListener('click', () => {
+            nav.classList.toggle('nav-active');
+            burger.classList.toggle('toggle');
+        });
+    </script>
 </body>
 </html>
